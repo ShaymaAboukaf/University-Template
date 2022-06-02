@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Css Custom -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
+        <div class="nav-links" id="nav">
+          <i class="fas fa-times" onclick="myFunction()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="myFunction()"></i>
+      </nav>
+      <h1>About Us</h1>
+    </section>
+
+    <!-- About Us Content -->
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>We are the world's largest university</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo
+            quaerat voluptas possimus aspernatur laudantium maxime nesciunt vero
+            et? Voluptas ipsam officia dolor quisquam vitae, delectus sunt!
+            Explicabo accusamus suscipit dolorem.
+          </p>
+          <a class="hero-btn red-btn" href="">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+          <img src="images/about.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia unde
+        fugiat cum asperiores voluptas tempore<br />
+        cupiditate corrupti sunt sed enim, id eveniet distinctio amet quasi
+        porro voluptatem necessitatibus placeat deserunt.
+      </p>
+      <div class="icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+      <p>Made With <i class="far fa-heart"></i> by Edford University</p>
+    </section>
+
+    <!-- Javascript Toggle Menu -->
+    <script>
+      var element = document.getElementById("nav");
+      function myFunction() {
+        element.classList.toggle("toggle");
+      }
+    </script>
+  </body>
+</html>
